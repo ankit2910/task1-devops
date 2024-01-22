@@ -3,13 +3,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <servers>
     <server>
-      <username>${security.getCurrentUsername()}</username>
-      <password>${security.getEscapedEncryptedPassword()!"cmVmdGtuOjAxOjE3Mzc0NDQyNzk6U25FNTg2bzhQNUNXbDBlVkRaTlB5clpxMVFh"}</password>
+      <username>ankit24</username>
+      <password>cmVmdGtuOjAxOjE3Mzc0NTQ0OTE6MWlSa3Z3UjR5a1Fqd0FPazVBaDFjT0RtV1Ry</password>
       <id>central</id>
     </server>
     <server>
-      <username>${security.getCurrentUsername()}</username>
-      <password>${security.getEscapedEncryptedPassword()!"cmVmdGtuOjAxOjE3Mzc0NDQyNzk6U25FNTg2bzhQNUNXbDBlVkRaTlB5clpxMVFh"}</password>
+      <username>ankit24</username>
+      <password>cmVmdGtuOjAxOjE3Mzc0NTQ0OTE6MWlSa3Z3UjR5a1Fqd0FPazVBaDFjT0RtV1Ry</password>
       <id>snapshots</id>
     </server>
   </servers>
@@ -21,14 +21,14 @@
             <enabled>false</enabled>
           </snapshots>
           <id>central</id>
-          <name>maven-demo-libs-release</name>
-          <url>https://ankit24.jfrog.io/artifactory/maven-demo-libs-release</url>
+          <name>jenkins-jfrog-libs-release</name>
+          <url>https://ankit24.jfrog.io/artifactory/jenkins-jfrog-libs-release</url>
         </repository>
         <repository>
           <snapshots />
           <id>snapshots</id>
-          <name>maven-demo-libs-snapshot</name>
-          <url>https://ankit24.jfrog.io/artifactory/maven-demo-libs-snapshot</url>
+          <name>jenkins-jfrog-libs-snapshot</name>
+          <url>https://ankit24.jfrog.io/artifactory/jenkins-jfrog-libs-snapshot</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -37,14 +37,14 @@
             <enabled>false</enabled>
           </snapshots>
           <id>central</id>
-          <name>maven-demo-libs-release</name>
-          <url>https://ankit24.jfrog.io/artifactory/maven-demo-libs-release</url>
+          <name>jenkins-jfrog-libs-release</name>
+          <url>https://ankit24.jfrog.io/artifactory/jenkins-jfrog-libs-release</url>
         </pluginRepository>
         <pluginRepository>
           <snapshots />
           <id>snapshots</id>
-          <name>maven-demo-libs-snapshot</name>
-          <url>https://ankit24.jfrog.io/artifactory/maven-demo-libs-snapshot</url>
+          <name>jenkins-jfrog-libs-snapshot</name>
+          <url>https://ankit24.jfrog.io/artifactory/jenkins-jfrog-libs-snapshot</url>
         </pluginRepository>
       </pluginRepositories>
       <id>artifactory</id>
