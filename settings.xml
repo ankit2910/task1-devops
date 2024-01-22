@@ -3,13 +3,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <servers>
     <server>
-      <username>${security.getCurrentUsername()}</username>
-      <password>${security.getEscapedEncryptedPassword()!"cmVmdGtuOjAxOjE3Mzc0NDQyNzk6U25FNTg2bzhQNUNXbDBlVkRaTlB5clpxMVFh"}</password>
+      <username>ankit24</username>
+      <password>cmVmdGtuOjAxOjE3Mzc0NDQyNzk6U25FNTg2bzhQNUNXbDBlVkRaTlB5clpxMVFh</password>
       <id>central</id>
     </server>
     <server>
-      <username>${security.getCurrentUsername()}</username>
-      <password>${security.getEscapedEncryptedPassword()!"cmVmdGtuOjAxOjE3Mzc0NDQyNzk6U25FNTg2bzhQNUNXbDBlVkRaTlB5clpxMVFh"}</password>
+      <username>ankit24</username>
+      <password>cmVmdGtuOjAxOjE3Mzc0NDQyNzk6U25FNTg2bzhQNUNXbDBlVkRaTlB5clpxMVFh</password>
       <id>snapshots</id>
     </server>
   </servers>
