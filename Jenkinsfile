@@ -15,15 +15,9 @@ pipeline {
                 sh 'mvn test'
             }
         }
-        stage('Deploy - Staging') {
+        stage('Publish') {
             steps {
-                sh './deploy staging'
-                sh './run-smoke-tests'
-            }
-        }
-        stage('Deploy - Production') {
-            steps {
-                sh './deploy production'
+                sh 'mvn publish'
             }
         }
     }
