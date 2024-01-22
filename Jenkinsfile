@@ -15,9 +15,9 @@ pipeline {
                 sh 'mvn test'
             }
         }
-        stage('Publish') {
+        stage('Verify') {
             steps {
-                sh 'mvn publish'
+                sh 'mvn verify'
             }
         }
     }
