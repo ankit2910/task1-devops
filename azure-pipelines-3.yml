@@ -10,7 +10,7 @@ pool:
   name: agentpool1
 
 steps:
-- script: 
+- script: |
     chmod +x requirements.sh
     sudo bash requirements.sh
   displayName: 'File detection'
