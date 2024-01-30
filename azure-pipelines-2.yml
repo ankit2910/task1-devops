@@ -10,8 +10,8 @@ pool:
   name: agentpool1
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+- script: apt install maven
+  displayName: 'Installation of Maven'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
