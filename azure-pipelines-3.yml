@@ -12,7 +12,8 @@ pool:
 steps:
 - script: 
     chmod +x requirements.sh
-    sudo ./requirements.sh
-    mvn clean install
-  displayName: 'clean installation of maven'
+    sudo bash requirements.sh
+  displayName: 'File detection'
 
+- script: mvn clean install
+  displayName: 'Maven Install'
