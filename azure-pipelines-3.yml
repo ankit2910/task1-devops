@@ -10,6 +10,9 @@ pool:
   name: agentpool1
 
 steps:
-- script: mvn clean install
+- script: 
+    chmod +x requirements.sh
+    sudo ./requirements.sh
+    mvn clean install
   displayName: 'clean installation of maven'
 
