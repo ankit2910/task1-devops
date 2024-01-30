@@ -1,0 +1,21 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  name: agentpool1
+
+steps:
+- script: sudo apt install openjdk-17-jdk openjdk-17-jre
+  displayName: 'Installation of Java'
+
+- script: sudo apt install maven
+  displayName: 'Installation of Maven'
+
+- script: 
+    mvn clean install
+  displayName: 'Run a multi-line script'
